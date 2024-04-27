@@ -20,5 +20,5 @@ body {
 }
 
 svg{
-    background-color: teal;
+    border: 2px solid rgba(255, 255, 0, 0.418);
 }
