@@ -11,7 +11,7 @@ svgcont.addEventListener("mousemove", function (e) {
 
   gsap.to("svg path", {
     attr: {
-      d: `M 10 200 Q ${x} ${y} 750 200`,
+      d: `M 10 200 Q ${x} ${y} 750 200`, // Changing the d attribute of the path
     },
     duration: 0.1,
     ease: "power1.inOut",
@@ -24,6 +24,6 @@ svgcont.addEventListener("mouseleave", function () {
         d: initialPath,
         },
         duration: 0.5,
-        ease: "elastic.out(1,0.1)",
+        ease: "elastic.out(1,0.1)", // Elastic ease
     });
 });
